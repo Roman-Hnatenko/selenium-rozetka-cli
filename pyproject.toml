@@ -6,11 +6,13 @@ authors = ["Roman Hnatenko <hnatenkoroman@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.10.5"
+selenium = "^4.3.0"
+webdriver-manager = "^3.8.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
 mypy = "^0.961"
-pylint = "^2.14.5"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
