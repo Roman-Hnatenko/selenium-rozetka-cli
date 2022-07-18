@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "selenium-rozetka-cli"
+version = "0.1.0"
+description = ""
+authors = ["Roman Hnatenko <hnatenkoroman@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+mypy = "^0.961"
+pylint = "^2.14.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
